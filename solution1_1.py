@@ -7,6 +7,6 @@ def decode(S,C):
     print(C)
     print(S)
     for i in range(len(S)):
-        Decode.append(chr(ord('a')+(ord(S[i])+ord(C[i]))%26))
+        Decode.append(chr(ord('a')+(ord(S[i])+ord(C[i])-ord('a'))%26))
     print("".join(Decode))
 decode(S,C)
