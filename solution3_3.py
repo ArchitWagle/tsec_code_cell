@@ -1,4 +1,4 @@
-import numpy as np
+
 from math import *
 x= input().split()
 N = int(x[0])
