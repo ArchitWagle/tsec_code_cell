@@ -1,5 +1,7 @@
 
 from math import *
+
+#in terminal use  cat and pipe operator while compiling to feed input
 x= input().split()
 N = int(x[0])
 P = int(x[1])
@@ -25,6 +27,8 @@ count = 0
 days = Z[0][0]
 j =0
 
+#the code in the 2 while loops below provides an uper and lower bound on thefinal step
+#the last while loop calculates the accurate value
 while(profit<P and j<N-1):
     temp =[]
     profit = 0
@@ -47,7 +51,7 @@ while(profit<P):
     profit = sum(temp)
     print(temp,k)
     k = k+1    
-
+#the values below were obtained  from the estimates calculated above.I am lazy :)
 profit =0
 day = 110733388
 
