@@ -8,9 +8,7 @@ def group(x):
         sizen = j[k]
         if(k+1 in j):
             sizen = sizen+j[k+1]
-                
-        if(k-1 in j):
-            sizen = sizen+j[k-1]
+               
         if(size<sizen):
             size = sizen
     print(size)
