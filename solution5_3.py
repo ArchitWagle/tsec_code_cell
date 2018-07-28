@@ -5,7 +5,7 @@ def game(n):
         return 1
     
 print(game(22)+game(45)+game(26)+game(75))
-#Using invariants
+
 #let P(n) return W if player 1 wins with n marbles and L if player 1 cant win
 #P(1) = W
 #P(2) = W
